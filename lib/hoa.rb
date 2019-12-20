@@ -7,7 +7,7 @@ BASE_HOA = {
 
 def add_character(show, name)
   tv = {}
-  tv[show] << name
+  tv[show].push=name
   tv
   # Write your implementation here
   # Should return the array of the 'show' argument
